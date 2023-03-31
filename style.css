@@ -1,0 +1,101 @@
+  @import url('https://fonts.googleapis.com/css2?family=Montagu+Slab:opsz,wght@16..144,500&family=Montez&family=Montserrat:wght@100&display=swap');
+
+*{
+  margin: 0;
+  padding: 0;
+}
+.div1{
+  width: 100%;
+  height: auto;
+  background-color: grey;
+  margin: auto;
+}
+.headsec{
+  width: 100%;
+  height: 100px;
+  background-color: rgb(220, 219, 219);
+  float: left;
+  color: darkslategrey;
+  text-align: center;
+  
+}
+.headsec img{
+  height: 100px;
+  width: 100px;
+  border: 50px;
+  border-radius: 100%;
+  
+}
+.navsec{
+  width: 100%;
+  height: 100px;
+  background-color: rgb(188, 250, 252);
+  float: left;
+  color: blueviolet;
+  text-align: center;
+}
+.navsec a{
+  margin: 30px;
+  text-decoration: none;
+  color: rgb(28, 63, 63);
+
+}
+.navsec a:hover{
+  color: rgb(27, 9, 45);
+  background-color: rgb(249, 191, 115);
+  background-size: 30px;
+  border: 180px;
+  border-radius: 10px;
+  transition:0.49s;
+  
+  
+}
+
+.marquee{
+  padding: auto;
+  margin-top: 35px;
+  font-size: smaller;
+  color: rgb(45, 57, 53);
+  font-family: 'Montagu Slab', serif;
+}
+.marquee a{
+  color: brown;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.midsec{
+  width:100%;
+  height: 500px;
+  float: left;
+}
+.footsec{
+  width: 100%;
+  height: 120px;
+  background-color: aquamarine;
+  float: left;
+  color: darkslategrey;
+  text-align: center;
+
+}
+.indsec{
+  width: 20%;
+  height: 500px;
+  background-color: gray;
+  color: cadetblue;
+  float: left;
+  align-items: center;
+  text-align: center;
+}
+.mark{
+  margin-top: 10px;
+  margin-bottom: 10px;
+  background-color: rgba(0, 0, 0, 0);
+  text-align: center;
+  color: darkgreen;
+}
+.contentsec{
+  width: 80%;
+  height: 500px;
+  background-color: rgb(255, 168, 168);
+  color: rgb(0, 247, 255);
+  float: left;
+}
